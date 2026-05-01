@@ -31,8 +31,23 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
     }
+
+    .about {
+        width:100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills {
+        width:100vw;
+        height: 100vh;
+    }
+
     .pic {
         border: 1px solid grey;
         border-radius: 50%;
@@ -101,5 +116,23 @@
 
 
     img {
-        border-radius: 20px;
+        border-radius: 30px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .facebook {
+        border-radius: 60%;
+    }
+
+    .social img {
+        width: 5vh;
+        height: auto;
+    }
+
+    .social img:hover {
+        transform: scale(1.1);
     }
