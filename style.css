@@ -27,6 +27,8 @@
         font-size: 5vh;
 
     }
+
+
     .start {
         display: flex;
         justify-content: center;
@@ -36,11 +38,10 @@
     }
 
     .about {
-        width:100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width:100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .skills {
@@ -48,11 +49,17 @@
         height: 100vh;
     }
 
-    .pic {
+    .pic_1 img, .pic_2 img {
         border: 1px solid grey;
-        border-radius: 50%;
+        border-radius: 200px;
         border-style: outset;
-        width: 25%;
+        width: 50%;
+    }
+
+    .pic_2 img {
+        height: 700px;
+        width: auto;
+        border-radius: 10px;
     }
 
     fieldset {
